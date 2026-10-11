@@ -86,7 +86,7 @@ docker compose config --quiet
 docker compose up --build -d --wait
 ```
 
-Open **http://127.0.0.1:8133/**. Health: **http://127.0.0.1:8133/actuator/health**. `ADMIN_USERNAME` defaults to `admin`; the script generates a private random password in a0600 `.env`. Read `ADMIN_PASSWORD` locally. **No shared demo password.** The script refuses to overwrite an existing `.env`.
+Open **[http://127.0.0.1:8133/](http://127.0.0.1:8133/)**. Health: **[http://127.0.0.1:8133/actuator/health](http://127.0.0.1:8133/actuator/health)**. `ADMIN_USERNAME` defaults to `admin`; the script generates a private random password in a0600 `.env`. Read `ADMIN_PASSWORD` locally. **No shared demo password.** The script refuses to overwrite an existing `.env`.
 
 Default binding is localhost. To change the port:
 
